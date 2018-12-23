@@ -1,0 +1,15 @@
+conda activate cursoDjango #Ativa o ambiente virtual
+
+django-admin startproject meuPrimeiroProjeto #Cria um projeto novo no Django
+
+python manage.py runserver #Roda o servidor basico do Django
+
+conda create --name cursoDjango python=3.6 django #Cria um ambiente virtual
+
+conda info --envs #Lista os ambientes virtuais
+
+python manage.py startapp clientes #Cria uma aplicação
+
+python manage.py migrate #Cria as tabelas no banco
+
+python manage.py makemigrations #Cria o arquivo para o banco
